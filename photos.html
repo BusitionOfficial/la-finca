@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photos</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+  a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:url('https://lafinca.neocities.org/stu.png'), auto;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:url('https://lafinca.neocities.org/stu.png'), auto;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor:url('https://lafinca.neocities.org/stu.png'), auto;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor:url('https://lafinca.neocities.org/stu.png'), auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+p {
+  text-align: center;
+}
+li {
+  text-align: center;
+}
+  ul {
+        list-style-position: inside;
+        padding-left: 0;
+        text-align: center; 
+    }
+    {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 10px;
+  width: 50%;
+  height:100px;
+  float: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+.div {
+  width: 500px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  margin:auto;
+  flex-direction:column;
+  position:relative;
+  border: 0px solid #000;
+  border-radius: 4px;
+  max-width:660px;
+  padding:10px;
+  gap:10px;
+}
+.item {
+  flex:1;
+}
+.navi {
+  display: flex;
+   flex: 33.33%;
+  padding: 10px;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.navi a {
+  text-align:center;
+  width:100%;
+}
+.main {
+  display:flex;
+ width:100% 
+ height:100px
+}
+.box {
+  flex: 100%;
+  padding: 10px;
+  width: 100%;
+  height:100px;
+  float: left;
+}
+.soft {
+  background:#fea800
+}
+.header {
+  position:relative;
+  padding: 40px 10px 30px;
+  overflow: hidden;
+  text-align: center;
+  border:1px black;
+  border-radius:100%
+  background-position: center;
+  background-size:cover;
+  width:100%;
+  background:#800fea;
+}
+    </style>
+  </head>
+  <body>
+  <p><strong>current time is <span id="current-time"></span>
+<script src="script.js"></script></strong></p>
+  <h1><a href="index.html"><img src = "lafincalogo.png"></a></h1>
+    <p><strong>all photos are under creative commons 4.0 and are hosted on wikimedia commons</strong></p>
+    <p><strong>photos do not uphold or reflect views of any kind</strong></p>
+ <div class="container">
+<div class="main">
+  <div class="box soft">
+    <abbr title="Los Angeles"><a href="https://commons.wikimedia.org/wiki/User:Busition/clagallery"><img src="laflag.jpg"></a></abbr>
+  </div>
+     <div class="box" align="center">
+    <abbr title="Latin America"><a href="https://commons.wikimedia.org/wiki/User:Busition/latamgallery"><img src="latamflag.jpg"></a></abbr>
+  </div>
+     <div class="box" align="center">
+    <abbr title="New York City"> <a href="https://commons.wikimedia.org/wiki/User:Busition/nycgallery"><img src="nycflag.jpg"></a></abbr>
+  </div>
+  </div>
+   <div class="main">
+     <div class="box">
+    <abbr title="Northern California"><a href="https://commons.wikimedia.org/wiki/User:Busition/norcal"><img src="norcal.jpg"></a></abbr>
+    </div>
+     <div class="box" align="center">
+    <abbr title="San Fernando Valley"><a href="https://commons.wikimedia.org/wiki/User:Busition/sfvgallery"><img src="sfvflag.jpg"></a></abbr>
+    </div>
+     <div class="box" align="center">
+    <abbr title="Westside (Los Angeles County)"><a href="https://commons.wikimedia.org/wiki/User:Busition/westside"><img src="culvercity.jpg"></a></abbr>
+    </div>
+  </div>
+  </div>
+  <p><strong>interactive photo map:</strong></p>
+<iframe src="https://www.google.com/maps/d/embed?mid=1FbrtdLViLV9kNDuAHI-t5fDX3Z3w1n0&ehbc=2E312F" width="100%" height="480"></iframe>
+ <div class="row">
+  <div class="column">
+    <a href="https://web.archive.org/web/19990117003130/http://www.microsoft.com/windows/ie/default.htm" target>
+    <img src ="Ie_anim-1.gif"></a>
+    </div>
+      <div class="column">
+    <a href="https://geocities.restorativland.org/Hollywood/" target>
+    <img src ="hollywood.gif"></a>
+    </div>
+      <div class="column">
+    <a href="https://web.archive.org/web/20001206031600/http://www.adobe.com/products/acrobat/vialternate.html" target>
+    <img src ="getacro.gif"></a> 
+    </div>
+    </div>
+  </body>
+</html>
