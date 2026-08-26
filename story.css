@@ -1,0 +1,19 @@
+body {
+  background-color: #e6c393;
+  color: black;
+  font-family: Times;
+  cursor:url('https://lafinca.neocities.org/stu.png'), auto;
+}
+.container
+{max-width: 660px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+position: relative;
+background: #FFFFFF;
+border: 1px solid black;
+border-radius: 4px;
+box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.55);
+}
